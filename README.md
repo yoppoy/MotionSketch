@@ -1,16 +1,9 @@
-#  MotionSketch
+# MotionSketch
+React native app to create sketches on a map based on your moving position over time
+
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
 * Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
-
-## :arrow_up: How to Setup
-
-**Step 1:** git clone this repo:
-
-**Step 2:** cd to the cloned repo:
-
-**Step 3:** Install the Application with `yarn` or `npm i`
-
 
 ## :arrow_forward: How to Run App
 
