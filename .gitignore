@@ -58,3 +58,7 @@ buck-out/
 # Misc
 #
 .env
+
+# Test
+#
+*__snapshots__
