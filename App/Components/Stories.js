@@ -1,4 +1,4 @@
-import './AlertMessage.story'
-import './DrawerButton.story'
-import './FullButton.story'
-import './RoundedButton.story'
+import './Alerts/AlertMessage.story'
+import './Buttons/DrawerButton.story'
+import './Buttons/FullButton.story'
+import './Buttons/RoundedButton.story'
