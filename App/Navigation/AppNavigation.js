@@ -1,21 +1,23 @@
-import { createStackNavigator, createAppContainer } from 'react-navigation'
-import LaunchScreen from '../Containers/LaunchScreen'
+import React from "react";
 
-import styles from './Styles/NavigationStyles'
+import { createStackNavigator } from 'react-navigation'
+import HomeScreen from '../Containers/App/HomeScreen'
 
-// Manifest of possible screens
-const PrimaryNav =  createStackNavigator({
-  LaunchScreen: {
-    screen: LaunchScreen,
-
+export default const AppNavigation = createStackNavigator({
+  Home: {
+    screen: HomeScreen,
+    title: 'Home'
   }
 }, {
+  initialRouteName: "Home",
   defaultNavigationOptions: {
-    headerTintColor: '#000',
     headerStyle: {
-      backgroundColor: '#fff',
     },
-  },
+    headerTitleStyle: {
+      fontWeight: "bold",
+      color: "#fff",
+    },
+    headerTintColor: "#fff",
+    animationEnabled: true
+  }
 });
-
-export default createAppContainer(PrimaryNav);
